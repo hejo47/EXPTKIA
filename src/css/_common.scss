@@ -1,0 +1,28 @@
+* {
+}
+
+.view {
+  @include position;
+  @include flex-row;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.content {
+}
+
+.container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
